@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Eulyoo 1945";
+  src: url("../assets/fonts/Eulyoo1945-Regular.woff") format("woff"),
+    url("../assets/fonts/Eulyoo1945-Regular.woff2") format("woff2");
+
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Eulyoo 1945";
+  src: url("../assets/fonts/Eulyoo1945-SemiBold.woff") format("woff"),
+    url("../assets/fonts/Eulyoo1945-SemiBold.woff2") format("woff2");
+
+  font-weight: 600;
+}

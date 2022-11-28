@@ -1,0 +1,37 @@
+body {
+  background-color: #261f1a;
+  height: 300vh;
+}
+
+.mainPageSection1 {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainPageSection1 .mainLogoImg {
+  width: 120px;
+}
+
+.mainPageSection1 .mainLogoTxt {
+  margin-top: 8px;
+  text-align: center;
+
+  font-size: 18px;
+  color: #fefefe;
+
+  font-family: "Eulyoo 1945";
+}
+
+.mainPageSection1 .mainLogoSubTxt {
+  margin-top: 6px;
+  text-align: center;
+
+  font-size: 9px;
+  color: #fefefe;
+
+  font-family: "Eulyoo 1945";
+}
