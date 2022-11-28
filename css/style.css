@@ -1,6 +1,6 @@
 /* Base */
-@import "base.css";
 @import "reset.css";
+@import "base.css";
 
 /* Fonts */
 @import "fonts.css";
