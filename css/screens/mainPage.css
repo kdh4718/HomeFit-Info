@@ -4,12 +4,42 @@ body {
   position: relative;
 }
 
+/* mainPage base */
+
 .exitButton {
   top: 5%;
   right: 16%;
   position: fixed;
   z-index: 1;
 }
+
+.sectionTop {
+  height: 82px;
+  width: 100%;
+  position: absolute;
+  left: 5%;
+  top: 16px;
+}
+
+.sectionTop h2 {
+  display: inline;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.sectionTop div {
+  display: inline;
+  margin-left: 140px;
+  font-size: 18px;
+}
+
+.sectionLine {
+  width: 90%;
+  border-color: #999999;
+  border-width: 1px;
+}
+
+/* mainPage Sections */
 
 .mainPageSection1 {
   height: 100vh;
@@ -42,15 +72,8 @@ body {
   height: 96vh;
 }
 
-.mainPageSection2 .title {
-  font-size: 64px;
-  position: absolute;
-  top: 20%;
-  left: 16%;
-}
-
 .mainPageSection2 .mainIntroImg {
-  width: 1200px;
+  width: 720px;
   position: absolute;
   top: 15%;
   right: 15%;
@@ -61,28 +84,13 @@ body {
   height: 100vh;
 }
 
-.sectionTop {
-  height: 82px;
-  width: 100%;
+.mainPageSection3 .regularSection .sectionTop {
+  left: 50%;
+}
+
+.mainPageSection3 .regularSection .mainLogoFrameImg {
+  width: 450px;
   position: absolute;
   left: 5%;
-  top: 300px;
-}
-
-.sectionTop h2 {
-  display: inline;
-  font-size: 36px;
-  font-weight: 600;
-}
-
-.sectionTop div {
-  display: inline;
-  margin-left: 140px;
-  font-size: 18px;
-}
-
-.sectionLine {
-  width: 90%;
-  border-color: #999999;
-  border-width: 1px;
+  top: 16px;
 }
