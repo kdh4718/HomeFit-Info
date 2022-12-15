@@ -10,3 +10,5 @@
 
 /* Screens */
 @import "screens/mainPage.css";
+
+@import "flippingCard.css";
