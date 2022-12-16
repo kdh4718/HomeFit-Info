@@ -37,6 +37,12 @@ body {
   width: 90%;
   border-color: #999999;
   border-width: 1px;
+  margin-top: 64px;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 600;
 }
 
 /* mainPage Sections */
@@ -90,7 +96,7 @@ body {
 }
 
 .mainPageSection3 {
-  height: 512px;
+  height: 78vh;
 }
 
 .mainPageSection3 .regularSection .sectionTop {
@@ -105,5 +111,67 @@ body {
 }
 
 .mainPageSection4 {
-  height: 100vh;
+  height: 500vh;
+}
+
+.mainPageSection4 .detailSection:nth-child(3) {
+  position: relative;
+  top: 0%;
+  margin-top: 178px;
+  left: 5%;
+}
+
+.mainPageSection4 .title {
+  position: relative;
+  top: 0%;
+}
+
+.mainPageSection4 .detailSection p {
+  margin-top: 110px;
+}
+
+.mainPageSection4 .imageSection p {
+  margin-top: 16px;
+  font-size: 15px;
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
+.mainPageSection4 .firstImageSection {
+  width: 542px;
+  right: 5%;
+  top: 396px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPageSection4 .firstImageSection img {
+  width: 542px;
+}
+
+.mainPageSection4 .secondImageSection {
+  width: 460px;
+  left: 2%;
+  top: 952px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPageSection4 .secondImageSection img {
+  width: 460px;
+}
+
+.mainPageSection4 .thirdImageSection {
+  width: 327px;
+  right: 5%;
+  top: 1400px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPageSection4 .thirdImageSection img {
+  width: 327px;
 }
