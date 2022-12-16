@@ -74,7 +74,7 @@ slogoTl.fromTo(
   },
   {
     x: 0,
-    y: -80,
+    y: -140,
     top: 0,
     yPercent: 50,
     scale: 1,
