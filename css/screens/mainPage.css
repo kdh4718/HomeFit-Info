@@ -2,9 +2,17 @@ body {
   background-color: #261f1a;
   height: 300vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 /* mainPage base */
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+}
 
 .exitButton {
   top: 48px;
