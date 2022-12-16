@@ -45,13 +45,12 @@ body {
   height: 100vh;
 }
 
-.mainPageSection1 .mainHeader{
+.mainPageSection1 .mainHeader {
   position: fixed;
   height: 10vh;
   top: 0;
   width: 100%;
   padding: 2.3rem 0 0.5rem;
-  background-color: #261f1a;
   z-index: 1;
 }
 
