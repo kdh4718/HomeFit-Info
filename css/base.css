@@ -12,7 +12,6 @@ body {
 /* 요소 중앙 정렬, 내부에서 top, left로 요소 위치 조정 가능한 박스 */
 .box {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;

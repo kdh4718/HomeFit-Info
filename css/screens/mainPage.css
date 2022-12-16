@@ -7,7 +7,7 @@ body {
 /* mainPage base */
 
 .exitButton {
-  top: 5%;
+  top: 48px;
   right: 16%;
   position: fixed;
   z-index: 1;
@@ -90,7 +90,7 @@ body {
 }
 
 .mainPageSection3 {
-  height: 100vh;
+  height: 512px;
 }
 
 .mainPageSection3 .regularSection .sectionTop {
@@ -98,8 +98,12 @@ body {
 }
 
 .mainPageSection3 .regularSection .mainLogoFrameImg {
-  width: 450px;
+  width: 482px;
   position: absolute;
   left: 5%;
   top: 16px;
+}
+
+.mainPageSection4 {
+  height: 100vh;
 }
