@@ -15,7 +15,7 @@ gsap.fromTo(
   }
 );
 
-/* Logo to header animation */
+/* Logo to header animation ScrollTrigger*/
 let logoTl = gsap.timeline({
   scrollTrigger: {
     trigger: ".tmp",
@@ -40,7 +40,6 @@ let slogoTl = gsap.timeline({
     scrub: 2, //커질수록 반응속도 느려짐
   },
 });
-
 /* mainlogo to header */
 logoT.fromTo(
   ".mainLogo",
@@ -105,7 +104,20 @@ logoTl.fromTo(
     duration: 0.8,
   }
 );
-
+// Typed Animation scroll trigger
+typedT.fromTo(
+  ".mainExplain",
+  {
+    x: 0,
+    y: 0,
+    opacity: 0,
+  },
+  {
+    x: 0,
+    y: 250,
+    opacity: 1,
+  }
+)
 // Toggle the header box-shadow
 logoTl.fromTo(
   "mainPageSection1",

@@ -10,3 +10,6 @@
 
 /* Screens */
 @import "screens/mainPage.css";
+
+/* Typed */
+@import "typed.css";

@@ -6,16 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href="css/style.css" rel="stylesheet" />
+    <script src="js/typed.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/scrollTrigger.js"></script>
+    <link rel="stylesheet" href="css/aos.css"/>
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
   </head>
-  <body>
-    <div class="exitButton">
-      <div class="hamburger" id="hamburgerType1">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-      </div>
-    </div>
-
+  <body class="body">
     <div class="mainPageSection1 box">
       <header class="mainHeader box">
         <div class="mainLogo">
@@ -26,10 +24,40 @@
           <h1 class="mainLogoSubTxt">홈 핏</h1>
         </div>
       </header>
+      <div class="exitButton">
+        <div class="hamburger" id="hamburgerType1">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
     </div>
-
+    
     <div class="mainPageSection2 box">
+      <h2 class="mainExplain"><span class="ExplainTyped"></span></h2>
       <img src="assets/images/main_img.png" class="mainIntroImg" />
+      <script>
+        $(function () {
+            let isVisible = false;
+            $(window).scroll(function () {
+              if ($(this).scrollTop() >= Math.ceil($(".mainPageSection1").offset().top) && isVisible == false) {
+                $(".ExplainTyped").typed({
+                  strings: ["앱설명 어떤식으로 할지 정해야 해요."],
+                  typeSpeed: 40,
+                  backSpeed: 40,
+                  backDelay: 200,
+                  smartBackspace: true,
+                  fadeOut: true,
+                  cursorChar: '',
+                  loop: false
+                })
+                isVisible = true
+              } else {
+
+              }
+            });
+          });
+      </script>
     </div>
 
     <div class="mainPageSection3 box">
@@ -41,9 +69,34 @@
         <img src="assets/images/app_icon_frame.png" class="mainLogoFrameImg" />
       </div>
     </div>
+
+    <div class="test box">
+      
+    </div>
+
     <script src="js/buttonAct.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
     <script type="text/javascript" src="js/logoToHeader.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+    <script>
+      VANTA.WAVES({
+        el: ".body",
+        color: "#0c0a09",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 400.00,
+        minWidth: 400.00,
+        scaleMobile: 1.00,
+        waveSpeed: 1,
+        waveHeight: 10,
+        zoom: 1.5
+      })
+    </script>
   </body>
 </html>

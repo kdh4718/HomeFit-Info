@@ -9,16 +9,19 @@
         opacity: 1;
     }
 }
+.ExplainTyped{
+    background-color: black;
+}
 
-.typed-cursor {
+.ExplainTyped-cursor {
     opacity: 0;
     display: none;
 }
 
-.typed::after {
+.ExplainTyped::after {
     position: relative;
     top: 0;
-    content: '|';
+    content: '_';
     display: inline-block;
-    animation: blink 1s infinite;
+    animation: blink 0.8s infinite;
 }
