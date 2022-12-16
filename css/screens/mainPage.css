@@ -2,12 +2,20 @@ body {
   background-color: #261f1a;
   height: 300vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 /* mainPage base */
 
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+}
+
 .exitButton {
-  top: 5%;
+  top: 48px;
   right: 16%;
   position: fixed;
   z-index: 1;
@@ -37,6 +45,12 @@ body {
   width: 90%;
   border-color: #999999;
   border-width: 1px;
+  margin-top: 64px;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 600;
 }
 
 /* mainPage Sections */
@@ -45,13 +59,12 @@ body {
   height: 100vh;
 }
 
-.mainPageSection1 .mainHeader{
+.mainPageSection1 .mainHeader {
   position: fixed;
   height: 10vh;
   top: 0;
   width: 100%;
   padding: 2.3rem 0 0.5rem;
-  background-color: #261f1a;
   z-index: 1;
 }
 
@@ -91,7 +104,7 @@ body {
 }
 
 .mainPageSection3 {
-  height: 100vh;
+  height: 78vh;
 }
 
 .mainPageSection3 .regularSection .sectionTop {
@@ -99,8 +112,74 @@ body {
 }
 
 .mainPageSection3 .regularSection .mainLogoFrameImg {
-  width: 450px;
+  width: 482px;
   position: absolute;
   left: 5%;
   top: 16px;
+}
+
+.mainPageSection4 {
+  height: 500vh;
+}
+
+.mainPageSection4 .detailSection:nth-child(3) {
+  position: relative;
+  top: 0%;
+  margin-top: 178px;
+  left: 5%;
+}
+
+.mainPageSection4 .title {
+  position: relative;
+  top: 0%;
+}
+
+.mainPageSection4 .detailSection p {
+  margin-top: 110px;
+}
+
+.mainPageSection4 .imageSection p {
+  margin-top: 16px;
+  font-size: 15px;
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
+.mainPageSection4 .firstImageSection {
+  width: 542px;
+  right: 5%;
+  top: 396px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPageSection4 .firstImageSection img {
+  width: 542px;
+}
+
+.mainPageSection4 .secondImageSection {
+  width: 460px;
+  left: 2%;
+  top: 952px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPageSection4 .secondImageSection img {
+  width: 460px;
+}
+
+.mainPageSection4 .thirdImageSection {
+  width: 327px;
+  right: 5%;
+  top: 1400px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPageSection4 .thirdImageSection img {
+  width: 327px;
 }

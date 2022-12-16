@@ -8,6 +8,20 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="background"></div>
+
+    <div class="mainPageSection1 box">
+      <header class="mainHeader box">
+        <div class="mainLogo">
+          <img src="assets/images/app_icon.png" class="mainLogoImg" />
+        </div>
+        <div class="mainTxt">
+          <h1 class="mainLogoTxt">HomeFit</h1>
+          <h1 class="mainLogoSubTxt">홈 핏</h1>
+        </div>
+      </header>
+    </div>
+
     <div class="exitButton">
       <div class="hamburger" id="hamburgerType1">
         <span class="line"></span>
@@ -16,60 +30,122 @@
       </div>
     </div>
 
-    <div class="mainPageSection1 box">
-      <div class="mainLogo">
-        <img src="assets/images/app_icon.png" class="mainLogoImg" />
-        <h1 class="mainLogoTxt">HomeFit</h1>
-        <h1 class="mainLogoSubTxt">홈 핏</h1>
-      </div>
-    </div>
-
     <div class="mainPageSection2 box">
-      <div class="title">홈 트레이닝 시대를 위한<br />새로운 가이드</div>
       <img src="assets/images/main_img.png" class="mainIntroImg" />
     </div>
 
     <div class="mainPageSection3 box">
-      <div class="sectionTop">
-        <h2>앱 개요</h2>
-        <div>HomeFit</div>
+      <div class="regularSection">
+        <div class="sectionTop">
+          <h2>앱 개요</h2>
+          <div>HomeFit</div>
+        </div>
+        <div class="imgSection">
+          <div class="container" ontouchstart="this.classList.toggle('hover');">
+            <div class="front">
+              <div class="inner"><p></p></div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>홈 핏</p>
+                <div>운동 및 식단 보조 앱</div>
+                <div>Android application</div>
+                <div>since 2023</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <hr class="sectionLine" />
-    
-    
-    <div class="flippingCard">
-					<div class="front" style="background-image: url(https://unsplash.it/500/500/)">
-						<div class="inner">
-							<p>Diligord</p>
-              <span>Lorem ipsum</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-						  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="flippingCard">
-					<div class="front" style="background-image: url(https://unsplash.it/501/501/)">
-						<div class="inner">
-							<p>Rocogged</p>
-              <span>Lorem ipsum</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-			
-    
-    <script src="js/buttonAct.js "></script>
+
+    <div class="mainPageSection4 box">
+      <div class="regularSection">
+        <div class="sectionTop">
+          <h2>기능</h2>
+          <div>Functions</div>
+        </div>
+        <hr class="sectionLine" />
+
+        <div class="detailSection">
+          <h1 class="title">운동과 식단 보조, 피드백</h1>
+          <p>설명</p>
+        </div>
+
+        <div class="firstImageSection imageSection">
+          <img src="assets/images/function_img_1.png" />
+          <p>안내선 출력 기반의 자세교정</p>
+          <div>설명</div>
+        </div>
+
+        <div class="secondImageSection imageSection">
+          <img src="assets/images/function_img_1.png" />
+          <p>사진 촬영 기반의 영양분석</p>
+          <div>설명</div>
+        </div>
+
+        <div class="thirdImageSection imageSection">
+          <img src="assets/images/function_img_1.png" />
+          <p>통합 결과 피드백</p>
+          <div>설명</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainPageSection5 box">
+      <div class="regularSection">
+        <div class="sectionTop">
+          <h2>기능</h2>
+          <div>Functions</div>
+        </div>
+        <hr class="sectionLine" />
+
+        <div class="detailSection">
+          <h1 class="title">운동과 식단 보조, 피드백</h1>
+          <p>설명</p>
+        </div>
+
+        <div class="firstImageSection imageSection">
+          <img src="assets/images/function_img_1.png" />
+          <p>안내선 출력 기반의 자세교정</p>
+          <div>설명</div>
+        </div>
+
+        <div class="secondImageSection imageSection">
+          <img src="assets/images/function_img_1.png" />
+          <p>사진 촬영 기반의 영양분석</p>
+          <div>설명</div>
+        </div>
+
+        <div class="thirdImageSection imageSection">
+          <img src="assets/images/function_img_1.png" />
+          <p>통합 결과 피드백</p>
+          <div>설명</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/buttonAct.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script type="text/javascript" src="js/logoToHeader.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
+    <script>
+      VANTA.WAVES({
+        shininess: 20,
+        el: ".background",
+        color: "#0C0A09",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        waveSpeed: 0.1,
+        waveHeight: 5,
+        zoom: 1.8,
+      });
+    </script>
   </body>
 </html>
