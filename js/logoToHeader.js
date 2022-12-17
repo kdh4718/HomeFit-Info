@@ -41,6 +41,15 @@ let slogoTl = gsap.timeline({
   },
 });
 
+let typedT2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".mainPageSection2",
+    start: "top center",
+    end: "center center",
+    scrub: 3,
+  }
+  
+})
 let typedT = gsap.timeline({
   scrollTrigger: {
     trigger: ".mainPageSection2",
@@ -49,6 +58,7 @@ let typedT = gsap.timeline({
     scrub: 3,
   },
 });
+
 
 /* mainlogo to header */
 logoT.fromTo(
@@ -134,5 +144,27 @@ typedT.fromTo(
     scale: 1,
     textShadow: "0 0 2px rgba(0,0,0,0)",
     duration: 0.1,
+  }
+);
+
+typedT2.fromTo(
+  ".ExplainTyped",
+  {
+    x: 0,
+    y: 0,
+    top: 0,
+    yPercent: 0,
+    opacity: 0,
+    scale: 1,
+    textShadow: "0 0 2px rgba(0,0,0,0.3)",
+  },
+  {
+    x: 0,
+    y: 0,
+    opacity: 1,
+    yPercent: 0,
+    scale: 1,
+    textShadow: "0 0 2px rgba(0,0,0,0)",
+    duration: 5,
   }
 );
