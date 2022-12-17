@@ -40,57 +40,83 @@
       <h2 class="mainExplain box"><span class="ExplainTyped"></span></h2>
       <script>
         $(function () {
-            let isVisible = false;
-            $(window).scroll(function () {
-              if ($(this).scrollTop() >= Math.ceil($(".mainPageSection1").offset().top) && isVisible == false) {
-                $(".ExplainTyped").typed({
-                  strings: ["건강한 삶을 내 손 안에"],
-                  typeSpeed: 100,
-                  backSpeed: 1,
-                  backDelay: 200,
-                  startDelay: 1500,
-                  smartBackspace: true,
-                  fadeOut: true,
-                  cursorChar: '',
-                  loop: false
-                })
-                isVisible = true
-              } else {
-              }
-            });
+          let isVisible = false;
+          $(window).scroll(function () {
+            if (
+              $(this).scrollTop() >=
+                Math.ceil($(".mainPageSection1").offset().top) &&
+              isVisible == false
+            ) {
+              $(".ExplainTyped").typed({
+                strings: ["건강한 삶을 내 손 안에"],
+                typeSpeed: 100,
+                backSpeed: 1,
+                backDelay: 200,
+                startDelay: 1500,
+                smartBackspace: true,
+                fadeOut: true,
+                cursorChar: "",
+                loop: false,
+              });
+              isVisible = true;
+            } else {
+            }
           });
+        });
       </script>
     </div>
-
-    
 
     <div class="mainPageSection3 box">
       <div class="regularSection">
         <div class="sectionTop">
           <h2>앱 개요</h2>
-          <div>HomeFit</div><br><br><br>
-            <div class="section3Text">
-              <div data-aos="zoom-in-left"
-              data-aos-duration="2000">
-                <p>코로나 유행을 기점으로 홈 트레이닝 인구의 증가 및 여러 매체에서</p><br>
-                <p>헬스 관련 콘텐츠나 음식 관련 콘텐츠의 수요 및 공급이 많아짐에 따라</p><br>
-                <p>운동과 식단 관리에 대한 관심도가 증가하였다고 판단하였습니다.</p><br>    
-              </div>
-              <div data-aos="zoom-in-left"
-              data-aos-duration="2000">
-                <p>여러 운동 중 유산소 운동과 같은 비교적 간단한 운동이 아닌 </p><br>
-                <p>근력 운동의 경우 초보자가 전문 트레이너의 도움 없이는</p><br>
-                <p>정확하고 안전한 자세를 알기가 힘들고,</p><br>
-                <p>정확한 자세를 알아가는 과정에서 부상의 위험도가 높아질 수 있습니다.</p><br>
-              </div>
-              <div data-aos="zoom-in-left"
-              data-aos-duration="2000">
-                <p>식단 관리의 경우도 마찬가지로 식품 영양학적으로 잘 짜인 식단을</p><br>
-                <p>일반 사람들이 계획하고 실천하기에는 무리가 많아 이 둘을 융합/연계하여</p><br>
-                <p>정확한 운동 자세와 식단 관리 및 조절을 동시에 관리하고</p><br>
-                <p>이에 대해 피드백을 제시할 수 있는 사용성과 접근성을 확보한</p><br>
-                <p>서비스를 개발하는 것을 연구 목적으로 한다.</p>
-              </div>
+          <div>HomeFit</div>
+          <br /><br /><br />
+          <div class="section3Text">
+            <div data-aos="zoom-in-left" data-aos-duration="2000">
+              <p>
+                코로나 유행을 기점으로 홈 트레이닝 인구의 증가 및 여러 매체에서
+              </p>
+              <br />
+              <p>
+                헬스 관련 콘텐츠나 음식 관련 콘텐츠의 수요 및 공급이 많아짐에
+                따라
+              </p>
+              <br />
+              <p>
+                운동과 식단 관리에 대한 관심도가 증가하였다고 판단하였습니다.
+              </p>
+              <br />
+            </div>
+            <div data-aos="zoom-in-left" data-aos-duration="2000">
+              <p>여러 운동 중 유산소 운동과 같은 비교적 간단한 운동이 아닌</p>
+              <br />
+              <p>근력 운동의 경우 초보자가 전문 트레이너의 도움 없이는</p>
+              <br />
+              <p>정확하고 안전한 자세를 알기가 힘들고,</p>
+              <br />
+              <p>
+                정확한 자세를 알아가는 과정에서 부상의 위험도가 높아질 수
+                있습니다.
+              </p>
+              <br />
+            </div>
+            <div data-aos="zoom-in-left" data-aos-duration="2000">
+              <p>
+                식단 관리의 경우도 마찬가지로 식품 영양학적으로 잘 짜인 식단을
+              </p>
+              <br />
+              <p>
+                일반 사람들이 계획하고 실천하기에는 무리가 많아 이 둘을
+                융합/연계하여
+              </p>
+              <br />
+              <p>정확한 운동 자세와 식단 관리 및 조절을 동시에 관리하고</p>
+              <br />
+              <p>이에 대해 피드백을 제시할 수 있는 사용성과 접근성을 확보한</p>
+              <br />
+              <p>서비스를 개발하는 것을 연구 목적으로 한다.</p>
+            </div>
           </div>
         </div>
         <div class="imgSection">
@@ -121,18 +147,42 @@
 
         <div class="detailSection">
           <h1 class="title">운동과 식단 보조, 피드백</h1>
-            <div class="detailSectionText" data-aos="fade-right" data-aos-duration="1200">
-              <p>HomeFit은 운동과 식단을 도와주기 위한 다양한 기능들을 지원합니다.</p>
-              <p>나만의 운동을 설정하고 AI 기반의 교정기능을 활용해 정확한 자세로 운동을 해보세요.</p><br><br>
+          <div
+            class="detailSectionText"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+          >
+            <p>
+              HomeFit은 운동과 식단을 도와주기 위한 다양한 기능들을 지원합니다.
+            </p>
+            <p>
+              나만의 운동을 설정하고 AI 기반의 교정기능을 활용해 정확한 자세로
+              운동을 해보세요.
+            </p>
+            <br /><br />
             <div data-aos="fade-right" data-aos-duration="1200">
-              <p>당신이 원하는 운동을 원하는 세트 수, 세트 당 반복 수, 휴식시간 등을 고려하여</p>
-              <p>맞춤형 운동을 설정하고, 보다 정확한 자세로 운동하기 위해 HomeFit의</p>
-              <p>AI 운동 자세 교정 기능을 사용해보세요.</p><br><br>
+              <p>
+                당신이 원하는 운동을 원하는 세트 수, 세트 당 반복 수, 휴식시간
+                등을 고려하여
+              </p>
+              <p>
+                맞춤형 운동을 설정하고, 보다 정확한 자세로 운동하기 위해
+                HomeFit의
+              </p>
+              <p>AI 운동 자세 교정 기능을 사용해보세요.</p>
+              <br /><br />
             </div>
             <div data-aos="fade-right" data-aos-duration="1200">
-              <p>식사를 한 후에는 메뉴들을 기록해보세요. AI 분석을 통해 사진 속 음식을 알아내고 </p>
-              <p>당신이 먹은 양, 칼로리를 계산해 줍니다. </p><br><br>
-              <p>운동과 식단에 대해 각각 피드백을 제시해주고, 이를 통해 앞으로의 계획 또한 제시합니다. </p>    
+              <p>
+                식사를 한 후에는 메뉴들을 기록해보세요. AI 분석을 통해 사진 속
+                음식을 알아내고
+              </p>
+              <p>당신이 먹은 양, 칼로리를 계산해 줍니다.</p>
+              <br /><br />
+              <p>
+                운동과 식단에 대해 각각 피드백을 제시해주고, 이를 통해 앞으로의
+                계획 또한 제시합니다.
+              </p>
             </div>
           </div>
         </div>
@@ -140,26 +190,38 @@
         <div class="firstImageSection imageSection">
           <div class="cont_modal">
             <div class="cont_photo cont_img_back">
-              <img src="assets/images/app_icon_frame.png" data-aos="fade-left" data-aos-duration="1200"/>
+              <img
+                src="assets/images/app_icon_frame.png"
+                data-aos="fade-left"
+                data-aos-duration="1200"
+              />
             </div>
-          <p>안내선 출력 기반의 자세교정</p>
-            <div>설명 설명 설명 설명 설명 설명 </div>
+            <p>안내선 출력 기반의 자세교정</p>
+            <div>설명 설명 설명 설명 설명 설명</div>
           </div>
         </div>
 
         <div class="secondImageSection imageSection">
-          <img src="assets/images/function_img_1.png" data-aos="fade-right" data-aos-duration="1200"/>
+          <img
+            src="assets/images/function_img_1.png"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+          />
           <div data-aos="fade-right" data-aos-duration="1200">
             <p>사진 촬영 기반의 영양분석</p>
-            <div>설명 설명 설명 설명 설명 설명 </div>
+            <div>설명 설명 설명 설명 설명 설명</div>
           </div>
         </div>
 
         <div class="thirdImageSection imageSection">
-          <img src="assets/images/function_img_1.png" data-aos="fade-left" data-aos-duration="1200"/>
+          <img
+            src="assets/images/function_img_1.png"
+            data-aos="fade-left"
+            data-aos-duration="1200"
+          />
           <div data-aos="fade-left" data-aos-duration="1200">
             <p>통합 결과 피드백</p>
-            <div>설명 설명 설명 설명 설명 설명 </div>
+            <div>설명 설명 설명 설명 설명 설명</div>
           </div>
         </div>
       </div>
@@ -218,9 +280,9 @@
       <img src="assets/images/function_img_1.png" />
     </div>
 
-    <div class="menuPageSection box" style="display: none;">
+    <div class="menuPageSection box" style="display: none">
       <div class="menuPageContainer">
-        <div class="menuContents" style="background-color: rgb(37, 39, 41);">
+        <div class="menuContents" style="background-color: rgb(37, 39, 41)">
           <h1>안녕하세요?</h1>
         </div>
       </div>

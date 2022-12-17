@@ -1,27 +1,27 @@
-.menuPageSection{
-    width: 100vw;
-    height: 100vh;
-    
-    position: fixed;
-    
-    z-index: 2;
-    top: 0%;
-    left: 0%;
+.menuPageSection {
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+
+  z-index: 2;
+  top: 0%;
+  left: 0%;
 }
-.menuPageSection .menuPageContainer{
-    position: relative;
-    width: 100%;
-    height: 100%;
+.menuPageSection .menuPageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.menuPageSection .menuContents{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0%;
-    left: 0%;
+.menuPageSection .menuContents {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
 }
-    .menuContents h1{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-    }
+.menuContents h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
