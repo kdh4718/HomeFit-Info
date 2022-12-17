@@ -18,7 +18,7 @@ body {
   top: 48px;
   right: 16%;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
 }
 
 .sectionTop {
@@ -65,7 +65,7 @@ body {
   top: 0;
   width: 100%;
   padding: 2.3rem 0 0.5rem;
-  z-index: 1;
+  z-index: 0;
 }
 
 .mainPageSection1 .mainLogoImg {
@@ -85,14 +85,14 @@ body {
 .mainPageSection1 .mainLogoSubTxt {
   margin-top: 18px;
   text-align: center;
-
   font-size: 16px;
 
   font-family: "Eulyoo 1945";
 }
 
 .mainPageSection2 {
-  height: 96vh;
+  height: 100vh;
+  justify-content: center;
 }
 
 .mainPageSection2 .mainIntroImg {
@@ -100,9 +100,19 @@ body {
   position: absolute;
   top: 15%;
   right: 15%;
-  z-index: -1;
 }
 
+.mainPageSection2 .mainExplain {
+  align-items: center;
+  display: inline-block;
+  top: 40%;
+  position: absolute;
+}
+.mainPageSection2 .ExplainTyped {
+  font-size: 86px;
+  font-family: "Eulyoo 1945";
+  font-weight: 400;
+}
 .mainPageSection3 {
   height: 78vh;
 }
@@ -135,9 +145,11 @@ body {
 }
 
 .mainPageSection4 .detailSection p {
-  margin-top: 110px;
+  margin-top: 40px;
 }
-
+.mainPageSection4 .detailSection .detailSectionText{
+  padding-top: 50px;
+}
 .mainPageSection4 .imageSection p {
   margin-top: 16px;
   font-size: 15px;
@@ -154,8 +166,10 @@ body {
   flex-direction: column;
 }
 
-.mainPageSection4 .firstImageSection img {
+.mainPageSection4 .firstImageSection img,
+.cont_modal {
   width: 542px;
+  height: 722px;
 }
 
 .mainPageSection4 .secondImageSection {
