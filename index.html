@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href="css/style.css" rel="stylesheet" />
+    <script src="js/typed.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/scrollTrigger.js"></script>
+    <link rel="stylesheet" href="css/aos.css"/>
+    <script src="js/three.min.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
   </head>
   <body>
     <div class="background"></div>
-
+    
     <div class="mainPageSection1 box">
       <header class="mainHeader box">
         <div class="mainLogo">
@@ -20,18 +26,40 @@
           <h1 class="mainLogoSubTxt">홈 핏</h1>
         </div>
       </header>
-    </div>
-
-    <div class="exitButton">
-      <div class="hamburger" id="hamburgerType1">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+      <div class="exitButton">
+        <div class="hamburger" id="hamburgerType1">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
       </div>
     </div>
 
+
     <div class="mainPageSection2 box">
-      <img src="assets/images/main_img.png" class="mainIntroImg" />
+      <h2 class="mainExplain box"><span class="ExplainTyped"></span></h2>
+      <script>
+        $(function () {
+            let isVisible = false;
+            $(window).scroll(function () {
+              if ($(this).scrollTop() >= Math.ceil($(".mainPageSection1").offset().top) && isVisible == false) {
+                $(".ExplainTyped").typed({
+                  strings: ["건강한 삶을 내 손 안에"],
+                  typeSpeed: 100,
+                  backSpeed: 1,
+                  backDelay: 200,
+                  startDelay: 1500,
+                  smartBackspace: true,
+                  fadeOut: true,
+                  cursorChar: '',
+                  loop: false
+                })
+                isVisible = true
+              } else {
+              }
+            });
+          });
+      </script>
     </div>
 
     <div class="mainPageSection3 box">
