@@ -9,9 +9,6 @@
         opacity: 1;
     }
 }
-.ExplainTyped{
-    background-color: black;
-}
 
 .ExplainTyped-cursor {
     opacity: 0;
@@ -21,7 +18,7 @@
 .ExplainTyped::after {
     position: relative;
     top: 0;
-    content: '_';
+    content: '|';
     display: inline-block;
     animation: blink 0.8s infinite;
 }

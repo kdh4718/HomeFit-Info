@@ -40,6 +40,17 @@ let slogoTl = gsap.timeline({
     scrub: 2, //커질수록 반응속도 느려짐
   },
 });
+
+let typedT = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".mainPageSection2",
+    start: "top center",
+    end: "center center",
+    scrub: 3,
+  },
+});
+
+
 /* mainlogo to header */
 logoT.fromTo(
   ".mainLogo",
@@ -106,27 +117,24 @@ logoTl.fromTo(
 );
 // Typed Animation scroll trigger
 typedT.fromTo(
-  ".mainExplain",
+  ".ExplainTyped",
+  {
+    x: 0,
+    y: 0,
+    top: 0,
+    yPercent: 0,
+    opacity: 1,
+    scale: 1,
+    textShadow: "0 0 2px rgba(0,0,0,0.3)",
+  },
   {
     x: 0,
     y: 0,
     opacity: 0,
-  },
-  {
-    x: 0,
-    y: 250,
-    opacity: 1,
+    yPercent: 0,
+    scale: 1,
+    textShadow: "0 0 2px rgba(0,0,0,0)",
+    duration: 0.1,
   }
-)
-// Toggle the header box-shadow
-logoTl.fromTo(
-  "mainPageSection1",
-  {
-    boxShadow: "0px 0px 10px rgba(0,0,0,0)",
-  },
-  {
-    boxShadow: "0px 0px 10px rgba(0,0,0,.15)",
-    duration: 0.2,
-  },
-  0.8
 );
+

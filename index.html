@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="background"></div>
-
+    
     <div class="mainPageSection1 box">
       <header class="mainHeader box">
         <div class="mainLogo">
@@ -35,27 +35,20 @@
       </div>
     </div>
 
-    <div class="exitButton">
-      <div class="hamburger" id="hamburgerType1">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-      </div>
-    </div>
 
     <div class="mainPageSection2 box">
-      <h2 class="mainExplain"><span class="ExplainTyped"></span></h2>
-      <img src="assets/images/main_img.png" class="mainIntroImg" />
+      <h2 class="mainExplain box"><span class="ExplainTyped"></span></h2>
       <script>
         $(function () {
             let isVisible = false;
             $(window).scroll(function () {
               if ($(this).scrollTop() >= Math.ceil($(".mainPageSection1").offset().top) && isVisible == false) {
                 $(".ExplainTyped").typed({
-                  strings: ["앱설명 어떤식으로 할지 정해야 해요."],
-                  typeSpeed: 40,
-                  backSpeed: 40,
+                  strings: ["건강한 삶을 내 손 안에"],
+                  typeSpeed: 100,
+                  backSpeed: 1,
                   backDelay: 200,
+                  startDelay: 1500,
                   smartBackspace: true,
                   fadeOut: true,
                   cursorChar: '',
@@ -63,7 +56,6 @@
                 })
                 isVisible = true
               } else {
-
               }
             });
           });
