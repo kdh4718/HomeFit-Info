@@ -119,7 +119,7 @@ body {
 }
 
 .mainPageSection4 {
-  height: 500vh;
+  height: 2200px;
 }
 
 .mainPageSection4 .detailSection:nth-child(3) {
@@ -147,7 +147,7 @@ body {
 
 .mainPageSection4 .firstImageSection {
   width: 542px;
-  right: 5%;
+  right: 1%;
   top: 396px;
   position: absolute;
   display: flex;
@@ -160,7 +160,7 @@ body {
 
 .mainPageSection4 .secondImageSection {
   width: 460px;
-  left: 2%;
+  left: 1%;
   top: 952px;
   position: absolute;
   display: flex;
@@ -182,4 +182,96 @@ body {
 
 .mainPageSection4 .thirdImageSection img {
   width: 327px;
+}
+
+.mainPageSection5 {
+  height: 2600px;
+}
+
+.mainPageSection5 .detailSection {
+  position: absolute;
+}
+
+.mainPageSection5 .detailSection h1 {
+  font-size: 88px;
+  font-family: "Pretendard";
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.mainPageSection5 .detailSection h2 {
+  font-size: 36px;
+  font-family: "Pretendard";
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+.mainPageSection5 .first {
+  margin-top: 110px;
+  left: 5%;
+}
+
+.mainPageSection5 .second {
+  margin-top: 600px;
+  right: 28%;
+}
+
+.mainPageSection5 .third {
+  margin-top: 1280px;
+  left: 5%;
+}
+
+.mainPageSection5 .imageSection p {
+  margin-top: 16px;
+  font-size: 15px;
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
+.mainPageSection5 .firstImageSection {
+  width: 400px;
+  left: 5%;
+  top: 500px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPageSection5 .firstImageSection img {
+  width: 400px;
+}
+
+.mainPageSection5 .secondImageSection {
+  width: 400px;
+  right: 5%;
+  top: 1000px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPageSection5 .secondImageSection img {
+  width: 400px;
+}
+
+.mainPageSection5 .thirdImageSection {
+  width: 400px;
+  left: 5%;
+  top: 1680px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPageSection5 .thirdImageSection img {
+  width: 400px;
+}
+
+.mainPageSection6 {
+  height: 30vh;
+}
+
+.mainPageSection6 img {
+  width: 100%;
+  height: 30vh;
 }
