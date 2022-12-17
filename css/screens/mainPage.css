@@ -85,16 +85,14 @@ body {
 .mainPageSection1 .mainLogoSubTxt {
   margin-top: 18px;
   text-align: center;
-
   font-size: 16px;
 
   font-family: "Eulyoo 1945";
 }
 
 .mainPageSection2 {
-  height: 96vh;
+  height: 100vh;
   justify-content: center;
-  
 }
 
 .mainPageSection2 .mainIntroImg {
@@ -102,16 +100,16 @@ body {
   position: absolute;
   top: 15%;
   right: 15%;
-  z-index: 1;
 }
 
-.mainPageSection2 .mainExplain{
+.mainPageSection2 .mainExplain {
   align-items: center;
   display: inline-block;
-  top:-37vh;
+  top: 40%;
+  position: absolute;
 }
-.mainPageSection2 .ExplainTyped{
-  font-size: 90px;
+.mainPageSection2 .ExplainTyped {
+  font-size: 86px;
   font-family: "Eulyoo 1945";
   font-weight: 400;
 }
@@ -166,8 +164,10 @@ body {
   flex-direction: column;
 }
 
-.mainPageSection4 .firstImageSection img {
+.mainPageSection4 .firstImageSection img,
+.cont_modal {
   width: 542px;
+  height: 722px;
 }
 
 .mainPageSection4 .secondImageSection {
