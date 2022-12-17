@@ -9,14 +9,14 @@
     <script src="js/typed.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/scrollTrigger.js"></script>
-    <link rel="stylesheet" href="css/aos.css"/>
+    <link rel="stylesheet" href="css/aos.css" />
     <script src="js/three.min.js"></script>
     <script src="js/vanta.waves.min.js"></script>
   </head>
   <body>
     <div class="background"></div>
-    
-    <div class="mainPageSection1 box">
+
+    <div class="mainPageSection1 box scrollBase">
       <header class="mainHeader box">
         <div class="mainLogo">
           <img src="assets/images/app_icon.png" class="mainLogoImg" />
@@ -138,9 +138,11 @@
         </div>
 
         <div class="firstImageSection imageSection">
-          <img src="assets/images/function_img_1.png" data-aos="fade-left" data-aos-duration="1200"/>
-          <div data-aos="fade-left" data-aos-duration="1200">
-            <p>안내선 출력 기반의 자세교정</p>
+          <div class="cont_modal">
+            <div class="cont_photo cont_img_back">
+              <img src="assets/images/app_icon_frame.png" data-aos="fade-left" data-aos-duration="1200"/>
+            </div>
+          <p>안내선 출력 기반의 자세교정</p>
             <div>설명 설명 설명 설명 설명 설명 </div>
           </div>
         </div>
@@ -235,5 +237,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="js/scroll.js"></script>
   </body>
 </html>
