@@ -14,15 +14,6 @@ body {
   z-index: 0;
 }
 
-.menu {
-  visibility: hidden;
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: 500;
-}
-
 .exitButton {
   top: 48px;
   right: 16%;
@@ -74,7 +65,7 @@ body {
   top: 0;
   width: 100%;
   padding: 2.3rem 0 0.5rem;
-  z-index: 3;
+  z-index: 0;
 }
 
 .mainPageSection1 .mainLogoImg {
