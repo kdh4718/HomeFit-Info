@@ -25,5 +25,5 @@
   content: "|";
   display: inline-block;
   animation: blink 0.8s infinite;
-  animation-delay: 5s;
+  animation-delay: 2s;
 }
