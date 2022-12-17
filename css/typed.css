@@ -24,6 +24,6 @@
   top: 0;
   content: "|";
   display: inline-block;
-  animation: blink 0.8s 6 forwards;
-  animation-delay: 2s;
+  animation: blink 0.8s infinite;
+  animation-delay: 5s;
 }
