@@ -9,14 +9,14 @@
     <script src="js/typed.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/scrollTrigger.js"></script>
-    <link rel="stylesheet" href="css/aos.css"/>
+    <link rel="stylesheet" href="css/aos.css" />
     <script src="js/three.min.js"></script>
     <script src="js/vanta.waves.min.js"></script>
   </head>
   <body>
     <div class="background"></div>
-    
-    <div class="mainPageSection1 box">
+
+    <div class="mainPageSection1 box scrollBase">
       <header class="mainHeader box">
         <div class="mainLogo">
           <img src="assets/images/app_icon.png" class="mainLogoImg" />
@@ -35,31 +35,8 @@
       </div>
     </div>
 
-
     <div class="mainPageSection2 box">
       <h2 class="mainExplain box"><span class="ExplainTyped"></span></h2>
-      <script>
-        $(function () {
-            let isVisible = false;
-            $(window).scroll(function () {
-              if ($(this).scrollTop() >= Math.ceil($(".mainPageSection1").offset().top) && isVisible == false) {
-                $(".ExplainTyped").typed({
-                  strings: ["건강한 삶을 내 손 안에"],
-                  typeSpeed: 100,
-                  backSpeed: 1,
-                  backDelay: 200,
-                  startDelay: 1500,
-                  smartBackspace: true,
-                  fadeOut: true,
-                  cursorChar: '',
-                  loop: false
-                })
-                isVisible = true
-              } else {
-              }
-            });
-          });
-      </script>
     </div>
 
     <div class="mainPageSection3 box">
@@ -179,5 +156,6 @@
     <script src="js/three.min.js"></script>
     <script src="js/vanta.waves.min.js"></script>
     <script src="js/wave.js"></script>
+    <script src="js/scroll.js"></script>
   </body>
 </html>

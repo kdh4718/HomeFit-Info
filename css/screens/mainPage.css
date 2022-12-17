@@ -94,14 +94,13 @@ body {
 .mainPageSection1 .mainLogoSubTxt {
   margin-top: 18px;
   text-align: center;
-
   font-size: 16px;
 
   font-family: "Eulyoo 1945";
 }
 
 .mainPageSection2 {
-  height: 96vh;
+  height: 100vh;
   justify-content: center;
 }
 
@@ -115,10 +114,11 @@ body {
 .mainPageSection2 .mainExplain {
   align-items: center;
   display: inline-block;
-  top: -37vh;
+  top: 40%;
+  position: absolute;
 }
 .mainPageSection2 .ExplainTyped {
-  font-size: 90px;
+  font-size: 86px;
   font-family: "Eulyoo 1945";
   font-weight: 400;
 }

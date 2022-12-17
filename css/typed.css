@@ -1,24 +1,29 @@
 @keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.ExplainTyped-cursor {
+  0% {
     opacity: 0;
-    display: none;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .ExplainTyped::after {
-    position: relative;
-    top: 0;
-    content: '|';
-    display: inline-block;
-    animation: blink 0.8s infinite;
+  opacity: 0;
+}
+
+.ExplainTyped-cursor {
+  opacity: 0;
+  display: none;
+}
+
+.ExplainTyped::after {
+  position: relative;
+  top: 0;
+  content: "|";
+  display: inline-block;
+  animation: blink 0.8s 6 forwards;
+  animation-delay: 2s;
 }
