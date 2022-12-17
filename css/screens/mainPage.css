@@ -18,7 +18,7 @@ body {
   top: 48px;
   right: 16%;
   position: fixed;
-  z-index: 3;
+  z-index: 11;
 }
 
 .sectionTop {
@@ -145,11 +145,9 @@ body {
 }
 
 .mainPageSection4 .detailSection p {
-  margin-top: 40px;
+  margin-top: 110px;
 }
-.mainPageSection4 .detailSection .detailSectionText{
-  padding-top: 50px;
-}
+
 .mainPageSection4 .imageSection p {
   margin-top: 16px;
   font-size: 15px;
