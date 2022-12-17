@@ -173,8 +173,10 @@ body {
   flex-direction: column;
 }
 
-.mainPageSection4 .firstImageSection img {
+.mainPageSection4 .firstImageSection img,
+.cont_modal {
   width: 542px;
+  height: 722px;
 }
 
 .mainPageSection4 .secondImageSection {
