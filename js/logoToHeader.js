@@ -47,9 +47,9 @@ let typedT2 = gsap.timeline({
     start: "top center",
     end: "center center",
     scrub: 3,
-  }
-  
-})
+  },
+});
+
 let typedT = gsap.timeline({
   scrollTrigger: {
     trigger: ".mainPageSection2",
@@ -58,7 +58,6 @@ let typedT = gsap.timeline({
     scrub: 3,
   },
 });
-
 
 /* mainlogo to header */
 logoT.fromTo(
