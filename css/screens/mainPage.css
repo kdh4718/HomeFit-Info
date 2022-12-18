@@ -62,6 +62,10 @@ body {
   font-weight: 600;
 }
 
+.sub {
+  color: #cccccc;
+}
+
 /* mainPage Sections */
 
 .mainPageSection1 {
@@ -137,6 +141,10 @@ body {
   top: 16px;
 }
 
+.mainPageSection3 .regularSection .imgSection {
+  top: 32px;
+}
+
 .mainPageSection4 {
   height: 2200px;
 }
@@ -173,8 +181,12 @@ body {
   flex-direction: column;
 }
 
-.mainPageSection4 .firstImageSection img,
-.cont_modal {
+.mainPageSection4 .firstImageSection img {
+  width: 542px;
+  height: 722px;
+}
+
+.mainPageSection4 .firstImageSection .cont_modal {
   width: 542px;
   height: 722px;
 }
@@ -190,6 +202,12 @@ body {
 
 .mainPageSection4 .secondImageSection img {
   width: 460px;
+  height: 614px;
+}
+
+.mainPageSection4 .secondImageSection .cont_modal {
+  width: 460px;
+  height: 614px;
 }
 
 .mainPageSection4 .thirdImageSection {
@@ -203,10 +221,16 @@ body {
 
 .mainPageSection4 .thirdImageSection img {
   width: 327px;
+  height: 437px;
+}
+
+.mainPageSection4 .thirdImageSection .cont_modal {
+  width: 327px;
+  height: 437px;
 }
 
 .mainPageSection5 {
-  height: 2600px;
+  height: 3100px;
 }
 
 .mainPageSection5 .detailSection {
@@ -233,12 +257,12 @@ body {
 }
 
 .mainPageSection5 .second {
-  margin-top: 600px;
-  right: 28%;
+  margin-top: 632px;
+  right: 12%;
 }
 
 .mainPageSection5 .third {
-  margin-top: 1280px;
+  margin-top: 1532px;
   left: 5%;
 }
 
@@ -250,42 +274,48 @@ body {
 }
 
 .mainPageSection5 .firstImageSection {
-  width: 400px;
+  width: 460px;
+  height: 900px;
   left: 5%;
-  top: 500px;
+  top: 532px;
   position: absolute;
   display: flex;
   flex-direction: column;
 }
 
 .mainPageSection5 .firstImageSection img {
-  width: 400px;
+  width: 460px;
+  height: 900px;
 }
 
 .mainPageSection5 .secondImageSection {
-  width: 400px;
+  width: 460px;
+  height: 900px;
   right: 5%;
-  top: 1000px;
+  top: 1092px;
   position: absolute;
   display: flex;
   flex-direction: column;
 }
 
 .mainPageSection5 .secondImageSection img {
-  width: 400px;
+  width: 460px;
+  height: 900px;
 }
 
 .mainPageSection5 .thirdImageSection {
-  width: 400px;
+  width: 460px;
+  height: 900px;
   left: 5%;
-  top: 1680px;
+  top: 1932px;
   position: absolute;
   display: flex;
   flex-direction: column;
 }
 
 .mainPageSection5 .thirdImageSection img {
-  width: 400px;
+  width: 460px;
+  height: 900px;
 }
 
 .mainPageSection6 {
