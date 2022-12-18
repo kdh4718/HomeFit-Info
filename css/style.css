@@ -9,9 +9,8 @@
 @import "components/buttons/exitButton.css";
 @import "components/flipImg.css";
 @import "components/zoomImg.css";
+@import "aos.css";
+@import "typed.css";
 
 /* Screens */
 @import "screens/mainPage.css";
-
-/* Typed */
-@import "typed.css";

@@ -258,7 +258,7 @@ body {
 
 .mainPageSection5 .second {
   margin-top: 632px;
-  right: 12%;
+  right: 6%;
 }
 
 .mainPageSection5 .third {
@@ -276,7 +276,7 @@ body {
 .mainPageSection5 .firstImageSection {
   width: 460px;
   height: 900px;
-  left: 5%;
+  left: 2%;
   top: 532px;
   position: absolute;
   display: flex;
@@ -288,10 +288,14 @@ body {
   height: 900px;
 }
 
+.mainPageSection5 .firstImageSection .info {
+  margin-left: 44px;
+}
+
 .mainPageSection5 .secondImageSection {
   width: 460px;
   height: 900px;
-  right: 5%;
+  right: 2%;
   top: 1092px;
   position: absolute;
   display: flex;
@@ -303,10 +307,14 @@ body {
   height: 900px;
 }
 
+.mainPageSection5 .secondImageSection .info {
+  margin-left: 44px;
+}
+
 .mainPageSection5 .thirdImageSection {
   width: 460px;
   height: 900px;
-  left: 5%;
+  left: 2%;
   top: 1932px;
   position: absolute;
   display: flex;
@@ -316,6 +324,10 @@ body {
 .mainPageSection5 .thirdImageSection img {
   width: 460px;
   height: 900px;
+}
+
+.mainPageSection5 .thirdImageSection .info {
+  margin-left: 44px;
 }
 
 .mainPageSection6 {
