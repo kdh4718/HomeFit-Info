@@ -78,7 +78,7 @@ body {
   top: 0;
   width: 100%;
   padding: 2.3rem 0 0.5rem;
-  z-index: 0;
+  z-index: 2;
 }
 
 .mainPageSection1 .mainLogoImg {
@@ -173,7 +173,7 @@ body {
 }
 
 .mainPageSection4 .firstImageSection {
-  width: 542px;
+  width: 437px;
   right: 1%;
   top: 396px;
   position: absolute;
@@ -182,17 +182,17 @@ body {
 }
 
 .mainPageSection4 .firstImageSection img {
-  width: 542px;
-  height: 722px;
+  width: 437px;
+  height: 582px;
 }
 
 .mainPageSection4 .firstImageSection .cont_modal {
-  width: 542px;
-  height: 722px;
+  width: 437px;
+  height: 582px;
 }
 
 .mainPageSection4 .secondImageSection {
-  width: 460px;
+  width: 390px;
   left: 1%;
   top: 952px;
   position: absolute;
@@ -201,18 +201,18 @@ body {
 }
 
 .mainPageSection4 .secondImageSection img {
-  width: 460px;
-  height: 614px;
+  width: 390px;
+  height: 520px;
 }
 
 .mainPageSection4 .secondImageSection .cont_modal {
-  width: 460px;
-  height: 614px;
+  width: 390px;
+  height: 520px;
 }
 
 .mainPageSection4 .thirdImageSection {
   width: 327px;
-  right: 5%;
+  right: 15%;
   top: 1400px;
   position: absolute;
   display: flex;
@@ -274,8 +274,8 @@ body {
 }
 
 .mainPageSection5 .firstImageSection {
-  width: 460px;
-  height: 900px;
+  width: 345px;
+  height: 675px;
   left: 2%;
   top: 532px;
   position: absolute;
@@ -284,8 +284,8 @@ body {
 }
 
 .mainPageSection5 .firstImageSection img {
-  width: 460px;
-  height: 900px;
+  width: 345px;
+  height: 675px;
 }
 
 .mainPageSection5 .firstImageSection .info {
@@ -293,8 +293,8 @@ body {
 }
 
 .mainPageSection5 .secondImageSection {
-  width: 460px;
-  height: 900px;
+  width: 345px;
+  height: 675px;
   right: 2%;
   top: 1092px;
   position: absolute;
@@ -303,8 +303,8 @@ body {
 }
 
 .mainPageSection5 .secondImageSection img {
-  width: 460px;
-  height: 900px;
+  width: 345px;
+  height: 675px;
 }
 
 .mainPageSection5 .secondImageSection .info {
@@ -312,8 +312,8 @@ body {
 }
 
 .mainPageSection5 .thirdImageSection {
-  width: 460px;
-  height: 900px;
+  width: 345px;
+  height: 675px;
   left: 2%;
   top: 1932px;
   position: absolute;
@@ -322,8 +322,8 @@ body {
 }
 
 .mainPageSection5 .thirdImageSection img {
-  width: 460px;
-  height: 900px;
+  width: 345px;
+  height: 675px;
 }
 
 .mainPageSection5 .thirdImageSection .info {
