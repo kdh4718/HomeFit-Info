@@ -12,6 +12,7 @@
 
 /* Screens */
 @import "screens/mainPage.css";
+@import "screens/menu.css";
 
 /* Typed */
 @import "typed.css";
