@@ -92,4 +92,4 @@ function MouseWheelHandler(e) {
       window.scrollTo(0, currentScroll);
     }
   }
-}
+};
