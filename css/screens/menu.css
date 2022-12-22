@@ -1,7 +1,6 @@
 .menu {
   width: 100%;
   height: 100%;
-
   position: fixed;
   background-color: #261f1a;
   z-index: 100;
@@ -9,21 +8,26 @@
   left: 0;
   right: 0;
   display: none;
+  justify-content: center;
   align-items: center;
 }
 .menu .menu-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  width: 45%;
-  height: 100%;
+  width: 100%;
+  height: 50%;
   font-family: "Eulyoo 1945";
-  margin-top: 15%;
-  margin-bottom: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .menu .menu-left {
   display: flex;
   flex-direction: column;
+  margin-right: 120px;
 }
 .menu .menu-Txt {
   font-size: 36px;
@@ -35,9 +39,28 @@
   flex-direction: column;
 }
 .menu .menu-ul {
-  font-size: 62px;
+  font-size: 64px;
   font-weight: 550;
 }
-li {
-  margin-bottom: 1vw;
+.menu li {
+  margin-top: 32px;
+  margin-left: 16px;
+}
+
+.menu .menuLogoTxt {
+  margin-top: 8px;
+  text-align: center;
+
+  font-size: 44px;
+
+  font-family: "Eulyoo 1945";
+  font-weight: 600;
+}
+
+.menu .menuLogoSubTxt {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 32px;
+
+  font-family: "Eulyoo 1945";
 }
