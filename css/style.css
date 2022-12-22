@@ -16,3 +16,9 @@
 
 /* Typed */
 @import "typed.css";
+@import "aos.css";
+@import "typed.css";
+
+/* Screens */
+@import "screens/mainPage.css";
+@import "screens/aboutUsPage.css";
